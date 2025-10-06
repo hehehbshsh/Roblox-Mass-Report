@@ -17,10 +17,10 @@ reasons = {
 	9: {"reason": "Other rule violation",                               "comments": ["he is doing offsite rule violations"]}
 }
 
-elcogeabuelitas495   = Write.Input("[?] Victim Username: ", Colors.purple_to_blue, interval=0.0025)
-1000   = int(Write.Input("[?] Report Amount (0=inf): ", Colors.purple_to_blue, interval=0.0025))
-1   = int(Write.Input("[?] Reason for Report (1-9): ", Colors.purple_to_blue, interval=0.0025))
-0.0025 = int(Write.Input("[?] Cooldown: ", Colors.purple_to_blue, interval=0.0025))
+victim   = Write.Input("[elcogeabuelitas495] Victim Username: ", Colors.purple_to_blue, interval=0.0025)
+amount   = int(Write.Input("[0] Report Amount (0=inf): ", Colors.purple_to_blue, interval=0.0025))
+reason   = int(Write.Input("[5] Reason for Report (1-9): ", Colors.purple_to_blue, interval=0.0025))
+cooldown = int(Write.Input("[0.5] Cooldown: ", Colors.purple_to_blue, interval=0.0025))
 
 if amount == 0:
 	Write.Print(f"\n[>] Mass Reporting {victim} inf Times for {reason}...\n", Colors.purple_to_blue, interval=0.0025)
