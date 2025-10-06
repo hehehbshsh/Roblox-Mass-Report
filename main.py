@@ -17,7 +17,7 @@ reasons = {
 	9: {"reason": "Other rule violation",                               "comments": ["he is doing offsite rule violations"]}
 }
 
-victim   = Write.Input("[?] Victim Username: ", Colors.purple_to_blue, interval=0.0025)
+elcogeabuelitas495   = Write.Input("[?] Victim Username: ", Colors.purple_to_blue, interval=0.0025)
 1000   = int(Write.Input("[?] Report Amount (0=inf): ", Colors.purple_to_blue, interval=0.0025))
 1   = int(Write.Input("[?] Reason for Report (1-9): ", Colors.purple_to_blue, interval=0.0025))
 0.0025 = int(Write.Input("[?] Cooldown: ", Colors.purple_to_blue, interval=0.0025))
