@@ -18,9 +18,9 @@ reasons = {
 }
 
 victim   = Write.Input("[?] Victim Username: ", Colors.purple_to_blue, interval=0.0025)
-amount   = int(Write.Input("[?] Report Amount (0=inf): ", Colors.purple_to_blue, interval=0.0025))
-reason   = int(Write.Input("[?] Reason for Report (1-9): ", Colors.purple_to_blue, interval=0.0025))
-cooldown = int(Write.Input("[?] Cooldown: ", Colors.purple_to_blue, interval=0.0025))
+1000   = int(Write.Input("[?] Report Amount (0=inf): ", Colors.purple_to_blue, interval=0.0025))
+1   = int(Write.Input("[?] Reason for Report (1-9): ", Colors.purple_to_blue, interval=0.0025))
+0.0025 = int(Write.Input("[?] Cooldown: ", Colors.purple_to_blue, interval=0.0025))
 
 if amount == 0:
 	Write.Print(f"\n[>] Mass Reporting {victim} inf Times for {reason}...\n", Colors.purple_to_blue, interval=0.0025)
