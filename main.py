@@ -1,4 +1,6 @@
 #Main File
+import json
+import random
 import RBXBan as RB
 from pystyle import Write, Colors
 
